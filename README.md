@@ -4,7 +4,8 @@
 #### related files
 1. community.py: compare pca and spectral method on laplacian matrix of an unweighted community graph
 #### results
-<img src = 'https://github.com/linkingmon/Comm_project/blob/master/figure/Figure_1.png'><img src = 'https://github.com/linkingmon/Comm_project/blob/master/figure/Figure_2.png'>
+<img src = 'https://github.com/linkingmon/Comm_project/blob/master/figure/Figure_1.png'>
+<img src = 'https://github.com/linkingmon/Comm_project/blob/master/figure/Figure_2.png'>
 
 ## Comparison between PCA+Kmeans and Spectral clustering
 #### related files
