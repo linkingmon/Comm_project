@@ -4,8 +4,8 @@
 #### related files
 1. community.py: compare pca and spectral method on laplacian matrix of an unweighted community graph
 #### results
-<img src = 'https://github.com/linkingmon/Comm_project/blob/master/figure/Figure_1.png'>
-<img src = 'https://github.com/linkingmon/Comm_project/blob/master/figure/Figure_2.png'>
+<img src = 'https://github.com/linkingmon/Comm_project/blob/master/figure/Figure_1.png'><br>
+<img src = 'https://github.com/linkingmon/Comm_project/blob/master/figure/Figure_2.png'><br><br>
 
 ## Comparison between PCA+Kmeans and Spectral clustering
 #### related files
@@ -17,11 +17,11 @@
 6. test.py: calculate the correct rate of the two method.
 
 #### results
-Since it takes a long time to run through the whole data, we apply Kmeans only on 1000 / 3000 / 4000 / 5000 / 7000 / 10000 datas seperately.
-PCA correct rate: 0.505 / 0.695 / 0.535 / 0.7 / 0.7 / 0.7
-GFT correct rate: 0.65 / 0.655 / 0.645 / 0.659 / 0.659 / 0.699
-We can see that PCA-method has better accuracy, but has lower stability compared with GFT-method.
+Since it takes a long time to run through the whole data, we apply Kmeans only on 1000 / 3000 / 4000 / 5000 / 7000 / 10000 datas seperately.<br>
+PCA correct rate: 0.505 / 0.695 / 0.535 / 0.7 / 0.7 / 0.7<br>
+GFT correct rate: 0.65 / 0.655 / 0.645 / 0.659 / 0.659 / 0.699<br>
+We can see that PCA-method has better accuracy, but has lower stability compared with GFT-method.<br><br>
 
 ## Comparison between Kernighan-Lin algorithm and spectral clustering on Community graph
-KL algorithm is widely used Heuristic in phsical design partitioning which helps to find the min-cost cut in a graph.
-Clustering Community graph is also aimed to fidn the min-cut in the graph.
+KL algorithm is widely used Heuristic in phsical design partitioning which helps to find the min-cost cut in a graph.<br>
+Clustering Community graph is also aimed to fidn the min-cut in the graph.<br>
