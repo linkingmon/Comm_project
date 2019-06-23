@@ -4,7 +4,7 @@ from sklearn.decomposition import PCA
 
 
 dim = 2
-kmeans_num = 7000
+kmeans_num = 5000
 
 X = np.load('predict.npy')
 print("Shape of X: ", X.shape)

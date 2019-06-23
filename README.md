@@ -9,7 +9,7 @@
 
 ## Comparison between PCA+Kmeans and Spectral clustering
 #### related files
-1. download models and data from: https://drive.google.com/open?id=1BtpzlMUzz1y461WzCk2GvUyPDHpa2Gsv
+1. download models and data from: https://drive.google.com/open?id=1BtpzlMUzz1y461WzCk2GvUyPDHpa2Gsv & https://www.kaggle.com/c/ml2019spring-hw7/data
 2. autoencdoer.py: the autoencoder model build by keras
 3. autoencoder_predict.py: read the image data and run the pretrained-autoencoder model to output the prediction
 4. pca_clustering.py: apply pca reduction method through the output of autoencoder, then apply Kmeans to serparate into 2 clusters
@@ -17,10 +17,9 @@
 6. test.py: calculate the correct rate of the two method.
 
 #### results
-Since it takes a long time to run through the whole data, we apply Kmeans only on 1000 / 3000 / 4000 / 5000 / 7000 / 10000 datas seperately.<br>
-PCA correct rate: 0.505 / 0.695 / 0.535 / 0.7 / 0.7 / 0.7<br>
-GFT correct rate: 0.65 / 0.655 / 0.645 / 0.659 / 0.659 / 0.699<br>
-We can see that PCA-method has better accuracy, but has lower stability compared with GFT-method.<br><br>
+We cluster 5000 datas<br>
+PCA correct rate: 0.9862<br>
+GFT correct rate: 0.9328<br><br>
 
 ## Comparison between Kernighan-Lin algorithm and spectral clustering on Community graph
 KL algorithm is widely used Heuristic in phsical design partitioning which helps to find the min-cost cut in a graph.<br>

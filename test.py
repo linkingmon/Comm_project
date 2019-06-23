@@ -6,7 +6,7 @@ print("Shape of pca predict: ", pca.shape)
 gft = np.load('Label_gft.npy')
 print("Shape of gft predict: ", gft.shape)
 
-ans = pd.read_csv('real.csv', header=None).values.reshape(-1)
+ans = np.array([0]*2500+[1]*2500)
 print("Shape of true answers: ", ans.shape)
 print("Percantage of (class 0,class 1) in the test set is : ", "({},{})".format(sum(ans == 1)/len(ans), sum(ans == 0)/len(ans)))
 
